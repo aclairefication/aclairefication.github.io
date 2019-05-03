@@ -6,7 +6,19 @@
 $font-stack:    "Adobe Garamond Pro", Garamond, Palatino, "Palatino Linotype", Times, "Times New Roman", Georgia, serif;
 $primary-color:     color: #6a15779;
 
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+  margin:0 0 20px;  
+}
+
 a {
   font: 100% $font-stack;
   color: $primary-color;
+}
+
+a small {
+  font-size:11px;
+  color: $primary-color;
+  margin-top:-0.3em;
+  display:block;
 }

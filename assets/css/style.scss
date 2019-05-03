@@ -3,7 +3,10 @@
 
 @import "{{ site.theme }}";
 
+$font-stack:    "Adobe Garamond Pro", Garamond, Palatino, "Palatino Linotype", Times, "Times New Roman", Georgia, serif;
+$primary-color:     color: #6a15779;
+
 a {
-    color: #6a15779;
-    text-decoration: none;
+  font: 100% $font-stack;
+  color: $primary-color;
 }
